@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "DM";
+  src: url(fonts/Dm_Serfif_Display/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Allura";
+  src: url(fonts/Allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Italianno";
+  src: url(fonts/Italianno/Italianno-Regular.ttf);
+}
+@font-face {
+  font-family: "Lalezar";
+  src: url(fonts/Lalezar/Lalezar-Regular.ttf);
+}
+@font-face {
+  font-family: "Dafoe";
+  src: url(fonts/Mr_Dafoe/MrDafoe-Regular.ttf);
+}
+@font-face {
+  font-family: "Pinyon";
+  src: url(fonts/Pinyon_Script/PinyonScript-Regular.ttf);
+}
+@font-face {
+  font-family: "Playball";
+  src: url(fonts/Playball/Playball-Regular.ttf);
+}
+@font-face {
+  font-family: "Sixcaps";
+  src: url(fonts/Six_Caps/SixCaps-Regular.ttf);
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url(fonts/Tangerine/Tangerine-Regular.ttf);
+}
+@font-face {
+  font-family: "Ultra";
+  src: url(fonts/Ultra/Ultra-Regular.ttf);
+}
+body {
+  margin: 0;
+}
+header,
+footer,
+figure,
+figcaption,
+section,
+article,
+aside,
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+.clear {
+  clear: both;
+}
+header {
+  background-color: white;
+  height: 6vw;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  box-shadow: 0 0 0.7vw 0 #bdb0a9;
+}
+#main_title {
+  width: 25%;
+  margin-top: 0.5vw;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-weight: 10;
+  font-family: "Tangerine";
+  letter-spacing: 0.3vw;
+  font-size: 3vw;
+}
+.icon {
+  margin-left: 0.5%;
+}
+header .linkstripeleft,
+header .linkstriperight {
+  float: right;
+  height: 0.3vw;
+  width: 10%;
+  background-color: #f8dda4;
+  margin-right: 1.5%;
+  border-radius: 5vw;
+}
+header .linkstripeleft {
+  margin-right: 2%;
+}
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+header nav ul li a {
+  float: right;
+  margin-right: 3.5%;
+  height: 3vw;
+  width: 5%;
+  color: black;
+  font-size: 1.2vw;
+  font-family: "DM";
+  font-style: normal;
+  text-decoration: none;
+  position: absolute;
+  top: 2.3vw;
+  left: 79.5%;
+  transition: all 300ms;
+}
+header nav ul li a:hover {
+  transform: scale(1.2, 1.2);
+}
+header nav ul li .link2 {
+  margin-right: 6.5%;
+  left: 91.5%;
+}
+section {
+  float: left;
+  width: 100%;
+}
+section main {
+  width: 38%;
+  margin-top: 8vw;
+}
+section main p {
+  margin-top: 0vw;
+  padding-left: 7%;
+  width: 100%;
+  height: 2vw;
+  font-size: 4vw;
+  font-family: "DM";
+}
+section .form {
+  padding-top: 0vw;
+  margin-top: 0vw;
+  margin-left: 50%;
+  height: 2vw;
+  width: 30%;
+  background-color: white;
+  border: 0.1vw solid grey;
+}
+section .mail {
+  margin-top: 2vw;
+}
+section .message {
+  height: 13vw;
+  margin-top: 2vw;
+}
+section .formtext {
+  font-family: "DM";
+  margin-top: 0vw;
+  margin-left: 1%;
+  font-size: 1.2vw;
+}
+section .send {
+  background-color: #f8dda4;
+  font-family: "DM";
+  font-size: 1.3vw;
+  padding-left: 2vw;
+  padding-top: 0.1vw;
+  padding-bottom: 0.1vw;
+  border-radius: 1vw;
+  width: 10%;
+  height: 2vw;
+  position: absolute;
+  top: 35vw;
+  left: 59%;
+}
