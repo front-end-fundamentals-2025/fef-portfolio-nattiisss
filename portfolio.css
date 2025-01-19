@@ -3,40 +3,8 @@
   src: url(fonts/Dm_Serfif_Display/DMSerifDisplay-Regular.ttf);
 }
 @font-face {
-  font-family: "Allura";
-  src: url(fonts/Allura/Allura-Regular.ttf);
-}
-@font-face {
-  font-family: "Italianno";
-  src: url(fonts/Italianno/Italianno-Regular.ttf);
-}
-@font-face {
-  font-family: "Lalezar";
-  src: url(fonts/Lalezar/Lalezar-Regular.ttf);
-}
-@font-face {
-  font-family: "Dafoe";
-  src: url(fonts/Mr_Dafoe/MrDafoe-Regular.ttf);
-}
-@font-face {
-  font-family: "Pinyon";
-  src: url(fonts/Pinyon_Script/PinyonScript-Regular.ttf);
-}
-@font-face {
-  font-family: "Playball";
-  src: url(fonts/Playball/Playball-Regular.ttf);
-}
-@font-face {
-  font-family: "Sixcaps";
-  src: url(fonts/Six_Caps/SixCaps-Regular.ttf);
-}
-@font-face {
   font-family: "Tangerine";
   src: url(fonts/Tangerine/Tangerine-Regular.ttf);
-}
-@font-face {
-  font-family: "Ultra";
-  src: url(fonts/Ultra/Ultra-Regular.ttf);
 }
 body {
   margin: 0;
