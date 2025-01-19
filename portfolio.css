@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "DM";
+  src: url(fonts/Dm_Serfif_Display/DMSerifDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: "Allura";
+  src: url(fonts/Allura/Allura-Regular.ttf);
+}
+@font-face {
+  font-family: "Italianno";
+  src: url(fonts/Italianno/Italianno-Regular.ttf);
+}
+@font-face {
+  font-family: "Lalezar";
+  src: url(fonts/Lalezar/Lalezar-Regular.ttf);
+}
+@font-face {
+  font-family: "Dafoe";
+  src: url(fonts/Mr_Dafoe/MrDafoe-Regular.ttf);
+}
+@font-face {
+  font-family: "Pinyon";
+  src: url(fonts/Pinyon_Script/PinyonScript-Regular.ttf);
+}
+@font-face {
+  font-family: "Playball";
+  src: url(fonts/Playball/Playball-Regular.ttf);
+}
+@font-face {
+  font-family: "Sixcaps";
+  src: url(fonts/Six_Caps/SixCaps-Regular.ttf);
+}
+@font-face {
+  font-family: "Tangerine";
+  src: url(fonts/Tangerine/Tangerine-Regular.ttf);
+}
+@font-face {
+  font-family: "Ultra";
+  src: url(fonts/Ultra/Ultra-Regular.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+header,
+footer,
+figure,
+figcaption,
+section,
+article,
+aside,
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+header {
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 10px 0 #bdb0a9;
+  padding-bottom: 0.1vw;
+  padding-top: 1.4vw;
+}
+#main_title {
+  margin-top: 0;
+  text-align: center;
+  font-weight: 10;
+  font-family: "Tangerine";
+  letter-spacing: 5px;
+  font-size: 50px;
+}
+.icon {
+  margin-left: 0.5%;
+}
+p {
+  width: 30%;
+  font-size: 1.3vw;
+  font-family: Arial;
+}
