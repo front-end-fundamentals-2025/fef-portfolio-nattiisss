@@ -26,19 +26,40 @@
       <main>
         <p>How fun that you want to contact me!</p>
       </main>
-      <div class="clear"></div>
-      <section class="form name">
-        <p class="formtext">Your name</p>
-      </section>
-      <section class="form mail">
-        <p class="formtext">Your mail</p>
-      </section>
-      <section class="form message">
-        <p class="formtext">Write your message</p>
-      </section>
-      <div>
-        <p class="send">Send Message</p>
-      </div>
+      <form action="action_page.php">
+        <label for="fname">Your First Name</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          placeholder="First name..."
+        />
+
+        <label for="lname">Your Last Name</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          placeholder="Last name..."
+        />
+
+        <label for="email">Your Email Adress</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          placeholder="Email adress..."
+        />
+
+        <label for="Content">Content</label>
+        <textarea
+          type="text"
+          id="content"
+          name="content"
+          placeholder="Write Something..."
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
     </section>
     <footer></footer>
   </body>
