@@ -25,8 +25,6 @@ img {
   clear: both;
 }
 header {
-  display: flex;
-  justify-content: flex-end;
   background-color: white;
   height: 6vw;
   width: 100%;
@@ -39,7 +37,9 @@ header {
 #main_title {
   width: 25%;
   margin-top: 0.5vw;
-  margin-right: 14%;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   font-weight: 10;
   font-family: "Tangerine";
@@ -64,13 +64,11 @@ header .linkstriperight {
   height: 0.3vw;
   width: 10%;
   background-color: #f8dda4;
-  margin-right: 2%;
-  margin-top: auto;
-  margin-bottom: 1.3vw;
+  margin-right: 1.5%;
   border-radius: 5vw;
 }
 header .linkstripeleft {
-  margin-right: 1.5%;
+  margin-right: 2%;
 }
 header nav ul {
   margin: 0;
@@ -98,11 +96,6 @@ header nav ul li a:hover {
 header nav ul li .link2 {
   margin-right: 6.5%;
   left: 91.5%;
-}
-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
 }
 section main {
   width: 70%;

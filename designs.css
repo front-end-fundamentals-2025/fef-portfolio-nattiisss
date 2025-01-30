@@ -99,76 +99,32 @@ header nav ul li .link2 {
   margin-right: 6.5%;
   left: 91.5%;
 }
-section {
+
+.container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto;
+  margin-top: 6vw;
+  height: 40vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(12, 150px);
+  grid: black;
 }
-section main {
-  width: 70%;
+.container h1 {
+  grid-column: 2/3;
+  grid-row: 1/1;
+  text-align: center;
+  justify-self: center;
+  align-self: center;
+  margin: 0;
+  border-bottom: 0.0015em solid black;
 }
-section main p {
-  float: left;
-  margin-top: 10vw;
-  padding-left: 15%;
+.container .main_design {
+  grid-row: 2/4;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+}
+.container .main_design img {
   width: 100%;
-  height: 2vw;
-  font-size: 6vw;
-  font-family: "DM";
-}
-section main .moretext {
-  margin-top: 0vw;
-  font-size: 5vw;
-  padding-left: 22%;
-}
-section main .moretext2 {
-  padding-left: 35%;
-  margin-bottom: 9vw;
-}
-section main #contact {
-  background-color: #f8dda4;
-  margin-left: 40%;
-  margin-right: auto;
-  padding-left: 2%;
-  padding-right: 2%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  border-radius: 2vw;
-  font-family: "Tangerine";
-  font-size: 4.3vw;
-  color: black;
-  text-decoration: none;
-}
-section .decor1 .image {
-  width: 90%;
-  height: 22.25vw;
-  background-color: rgb(238, 238, 238);
-  border: 0.1vw solid black;
-  margin-top: 8vw;
-  margin-left: auto;
-  margin-right: auto;
-}
-section .decor1 .image img {
-  max-width: 100%;
-}
-section .decor1 .info {
-  font-family: "DM";
-  font-size: 1.2vw;
-  margin-top: 0.5vw;
-  margin-left: 1.3vw;
-}
-.devider {
-  position: absolute;
-  top: 50vw;
-  width: 100%;
-  height: 0.2vw;
-  background-color: #f8dda4;
-}
-.designs {
-  position: absolute;
-  top: 51vw;
-  width: 100%;
-  height: 20vw;
-  font-size: 1.5vw;
-  font-family: "DM";
+  height: auto;
+  display: block;
 }
