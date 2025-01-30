@@ -119,10 +119,15 @@ header nav ul li .link2 {
   border-bottom: 0.0015em solid black;
 }
 .container .main_design {
-  grid-row: 3/4;
+  grid-row: 1/6;
   grid-column: 1/5;
-  margin-right: 14%;
-  margin-left: 2%;
+  margin-right: 15%;
+  margin-left: 7%;
+}
+.container .text1 {
+  grid-column: 4/7;
+  grid-row: 1/6;
+  margin-left: 18%;
 }
 .container .design2 {
   grid-row: 3/4;
@@ -156,19 +161,4 @@ header nav ul li .link2 {
   max-width: 100%;
   height: auto;
   display: block;
-}
-.container .main_design a,
-.container .design2 a,
-.container .design3 a,
-.container .design4 a,
-.container .design5 a {
-  background-color: black;
-  border-radius: 1.5vw;
-  text-decoration: none;
-  color: white;
-  font-size: 1.5vw;
-  padding: 0.6vw;
-  position: relative;
-  top: -3vw;
-  left: 2%;
 }
