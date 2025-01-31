@@ -102,10 +102,10 @@ header nav ul li .link2 {
 
 .container {
   display: grid;
-  margin-top: 4vw;
+  margin-top: 5vw;
   height: 40vw;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: repeat(12, 150px);
+  grid-template-rows: repeat(15, 150px);
   grid: black;
   justify-items: center;
   align-items: center;
@@ -117,35 +117,59 @@ header nav ul li .link2 {
   text-align: center;
   margin: 0;
   border-bottom: 0.0015em solid black;
+  background-color: #f8dda4;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 2vw;
 }
-.container .main_design {
+.container .design1 {
   grid-row: 1/6;
   grid-column: 1/5;
   margin-right: 15%;
   margin-left: 7%;
 }
 .container .text1 {
-  grid-column: 4/7;
+  grid-column: 4/8;
   grid-row: 1/6;
-  margin-left: 18%;
+  margin-left: 25%;
+  margin-right: 12%;
 }
 .container .design2 {
-  grid-row: 3/4;
+  grid-row: 5/8;
+  grid-column: 4/8;
+  margin-top: 3vw;
+  margin-left: 14%;
+  margin-right: 2%;
+}
+.container .text2 {
+  grid-column: 1/4;
+  grid-row: 5/8;
+  margin-left: 18%;
+}
+.container .design3 {
+  grid-row: 8/12;
+  grid-column: 1/5;
+  margin-right: 15%;
+  margin-left: 7%;
+}
+.container .text3 {
+  grid-column: 4/8;
+  grid-row: 8/12;
+  margin-left: 25%;
+  margin-right: 12%;
+}
+.container .design4 {
+  grid-row: 12/15;
   grid-column: 4/8;
   margin-left: 14%;
   margin-right: 2%;
 }
-.container .design3 {
-  grid-row: 6/7;
+.container .text4 {
   grid-column: 1/4;
-  margin-left: 2%;
-  margin-right: 22.5%;
-}
-.container .design4 {
-  grid-row: 6/7;
-  grid-column: 3/6;
-  margin-left: 12.5%;
-  margin-right: 12.5%;
+  grid-row: 12/15;
+  margin-left: 18%;
 }
 .container .design5 {
   grid-row: 6/7;
@@ -153,7 +177,7 @@ header nav ul li .link2 {
   margin-right: 2%;
   margin-left: 22.5%;
 }
-.container .main_design img,
+.container .design1 img,
 .container .design2 img,
 .container .design3 img,
 .container .design4 img,
