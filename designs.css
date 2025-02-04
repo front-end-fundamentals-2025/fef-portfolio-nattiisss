@@ -117,6 +117,20 @@ header nav ul li .link2 {
   text-align: center;
   margin: 0;
   border-bottom: 0.0015em solid black;
+  animation: rotateScale 1s ease-in-out;
+}
+@keyframes rotateScale {
+  0% {
+    transform: rotate(0deg);
+    scale: 1;
+  }
+  50% {
+    scale: 2.5;
+  }
+  100% {
+    transform: rotate(360deg);
+    scale: 1;
+  }
 }
 .container .main_design {
   grid-row: 3/4;
@@ -148,6 +162,7 @@ header nav ul li .link2 {
   margin-right: 2%;
   margin-left: 22.5%;
 }
+
 .container .main_design img,
 .container .design2 img,
 .container .design3 img,
@@ -171,6 +186,15 @@ header nav ul li .link2 {
   position: relative;
   top: -3vw;
   left: 2%;
+}
+footer {
+  border-top: 0.1vw solid #f8dda4;
+  margin-top: 9.5vw;
+  width: 100%;
+  height: 10vw;
+}
+footer h3 {
+  margin-left: 2vw;
 }
 @media screen and (max-width: 664px) {
   header {
