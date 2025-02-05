@@ -173,7 +173,7 @@ section .decor1 .info {
   margin-top: 0.5vw;
   margin-left: 1.3vw;
 }
-footer {
+/* footer {
   border-top: 0.1vw solid #f8dda4;
   margin-top: 9.5vw;
   width: 100%;
@@ -181,7 +181,7 @@ footer {
 }
 footer h3 {
   margin-left: 2vw;
-}
+} */
 @media screen and (max-width: 664px) {
   header {
     display: flex;

@@ -180,7 +180,7 @@ header nav ul li .link2 {
   height: auto;
   display: block;
 }
-footer {
+/* footer {
   border-top: 0.1vw solid #f8dda4;
   margin-top: 9.5vw;
   width: 100%;
@@ -188,7 +188,7 @@ footer {
 }
 footer h3 {
   margin-left: 2vw;
-}
+} */
 @media screen and (max-width: 664px) {
   header {
     display: flex;
